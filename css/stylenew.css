@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "SankofaDisplay-Regular";
+	src: url("../fonts/SankofaDisplay-Regular.ttf");
+}
+
+body {
+     background-color:  rgba(100,0,0,0.3);
+}
+
+main{
+   width: 90%;
+   background-color:  rgba(250,0,0,0.8);
+   padding: 40px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        box-shadow: 10px 10px 30px 20px rgba(0,0,130,0.9);
+}
+
+h1{
+    text-align: center;
+    font-family: "SankofaDisplay-Regular";
+          font-size: 500%;
+}
+
+p {
+            font-family: "SankofaDisplay-Regular";
+      background-color: #04382d;
+      font-size: 150%;
+      color: #ffa200;
+      padding: 30px 20px;
+      margin: 10px 200px;
+}
+
+div {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+}
+
+.photo1 {
+    background-image: url(../img/081.png);
+}
+
+.photo2 {
+    background-image: url(../img/1.png);
+}
+
+.photo3 {
+    background-image: mailto:url(../img/286977@2x.png);
+}
